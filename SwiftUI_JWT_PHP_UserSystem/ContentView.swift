@@ -9,13 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Spacer()
+                
+                NavigationLink (destination: LoginView()) {
+                    ButtonLoginView()
+                }
+                
+                NavigationLink (destination: RegisterView()) {
+                    ButtonRegisterView()
+                }
+                Spacer()
+                
+            }
+            .navigationTitle("Inicio")
+            .navigationBarHidden(true) //Oculto el título del NavigatorView.
+            
         }
-        .padding()
+        
+        
+        
     }
 }
 
@@ -24,3 +38,22 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct ButtonLoginView: View {
+var body: some View {
+    Text("iniciar sesión")
+        .padding()
+        .background(Color .cyan)
+        .cornerRadius(15)
+        .foregroundColor(Color .white)
+}}
+
+struct ButtonRegisterView: View {
+var body: some View {
+    Text("crear cuenta")
+        .padding()
+        .background(Color .orange)
+        .cornerRadius(15)
+        .foregroundColor(Color .white)
+}}
+

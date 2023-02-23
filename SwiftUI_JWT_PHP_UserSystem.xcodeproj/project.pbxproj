@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E44A5E6729A743BA0013E4E1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A5E6629A743BA0013E4E1 /* LoginView.swift */; };
+		E44A5E6929A743CB0013E4E1 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44A5E6829A743CA0013E4E1 /* RegisterView.swift */; };
 		E4A38F2E29A36FE8009613B9 /* SwiftUI_JWT_PHP_UserSystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A38F2D29A36FE8009613B9 /* SwiftUI_JWT_PHP_UserSystemApp.swift */; };
 		E4A38F3029A36FE8009613B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A38F2F29A36FE8009613B9 /* ContentView.swift */; };
 		E4A38F3229A36FE9009613B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A38F3129A36FE9009613B9 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E44A5E6629A743BA0013E4E1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E44A5E6829A743CA0013E4E1 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		E4A38F2A29A36FE8009613B9 /* SwiftUI_JWT_PHP_UserSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_JWT_PHP_UserSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A38F2D29A36FE8009613B9 /* SwiftUI_JWT_PHP_UserSystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JWT_PHP_UserSystemApp.swift; sourceTree = "<group>"; };
 		E4A38F2F29A36FE8009613B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				E4A38F2D29A36FE8009613B9 /* SwiftUI_JWT_PHP_UserSystemApp.swift */,
 				E4A38F2F29A36FE8009613B9 /* ContentView.swift */,
+				E44A5E6629A743BA0013E4E1 /* LoginView.swift */,
+				E44A5E6829A743CA0013E4E1 /* RegisterView.swift */,
 				E4A38F3129A36FE9009613B9 /* Assets.xcassets */,
 				E4A38F3329A36FE9009613B9 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44A5E6729A743BA0013E4E1 /* LoginView.swift in Sources */,
+				E44A5E6929A743CB0013E4E1 /* RegisterView.swift in Sources */,
 				E4A38F3029A36FE8009613B9 /* ContentView.swift in Sources */,
 				E4A38F2E29A36FE8009613B9 /* SwiftUI_JWT_PHP_UserSystemApp.swift in Sources */,
 			);
